@@ -7,6 +7,7 @@
     --bgc : rgb(2, 105, 146);
     --primc : rgb(135, 212, 243);
     --seconc : rgb(1, 63, 133);
+    --white : rgb(255, 255, 255);
 }
 
 .active {
@@ -79,7 +80,10 @@ header img{
 main content div {
     width: 400px;
     margin: 20px 0;
+    padding: 20px;
     display: inline-block;
+    background-color: var(--white);
+    vertical-align: top;
 }
 
 main content div h1 {
